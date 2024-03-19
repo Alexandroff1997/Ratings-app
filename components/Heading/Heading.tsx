@@ -1,8 +1,7 @@
-import { IHeadingTag } from './HeadingTag.props';
-import styles from './HeadingTag.module.css';
-import cn from 'classnames';
+import { IHeadingProps } from './Heading.props';
+import styles from './Heading.module.css';
 
-export const HeadingTag = ({ tag, children }: IHeadingTag): JSX.Element => {
+export const Heading = ({ tag, children }: IHeadingProps): JSX.Element => {
 	switch (tag) {
 		case 'h1':
 			return <h1 className={styles.h1}>{children}</h1>;
