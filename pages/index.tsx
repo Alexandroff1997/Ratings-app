@@ -1,6 +1,6 @@
 import { Button, Heading, Paragraph, Tag } from '@/components';
-
 export default function Home(): JSX.Element {
+
   return (
     <>
       <Heading tag='h1'>Text</Heading>
